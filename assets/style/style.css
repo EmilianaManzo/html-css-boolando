@@ -13,9 +13,9 @@ body{
   display: flex;
 }
 
-.debug{
+/* .debug{
   border: 2px solid red;
-}
+} */
 
 .container{
   width: 80%;
@@ -176,6 +176,61 @@ nav ul li a:hover{
 /* Footer  */
 footer{
   height: 100px;
+  width: 100%;
   background-color: black;
 }
+
+.container_footer{
+  height: 100%;
+}
+
+.left_footer{
+  width: 50%;
+}
+
+.left_footer h3{
+  color: white;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.law_pages ul{
+  width: 200%;
+  flex-wrap: wrap;
+}
+
+.law_pages ul li a{
+  color: white;
+  font-weight: lighter;
+  font-size: .6em;
+  padding-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.right_footer{
+  width: 50%;
+}
+
+.right_footer{
+  color: white;
+}
+
+.right_footer .social{
+  width: 50%;
+  position: relative;
+  left: 530px;
+  top: 10px;
+}
+
+.right_footer .icons{
+  width: 50%;
+  position: relative;
+  left: 530px;
+  top:15px;
+  }
+
+  .right_footer .icons span{
+    padding: 5px 3px;
+  }
 
