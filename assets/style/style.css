@@ -38,7 +38,21 @@ body{
   display: inline-block;
 }
 
+nav ul li a{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
 
+nav ul li a:hover{
+  text-decoration: underline;
+  opacity: .7;
+}
+
+.group .wishlist span:hover{
+  color: red;
+}
 
 /* Header */
 
@@ -49,6 +63,7 @@ header{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .container_header{
@@ -81,17 +96,6 @@ nav ul li{
   padding-left: 10px;
 }
 
-nav ul li a{
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-nav ul li a:hover{
-  text-decoration: underline;
-  opacity: .7;
-}
 
 .logo{
   width: 50%;
@@ -131,14 +135,16 @@ nav ul li a:hover{
   display: block;
 }
 
+.group.discount{
+  padding: 2px 6px;
+}
+
 .group .discount .red{
   background-color: red;
   margin-right: 1px;
-  padding: 2px 6px;
 }
 .group .discount .green{
   background-color: green;
-  padding: 2px 6px;
 }
 
 .group .text{
@@ -169,9 +175,6 @@ nav ul li a:hover{
   cursor: pointer;
 }
 
-.group .wishlist span:hover{
-  color: red;
-}
 
 /* Footer  */
 footer{
@@ -223,12 +226,7 @@ footer{
   top: 10px;
 }
 
-.right_footer .icons{
-  width: 50%;
-  position: relative;
-  left: 530px;
-  top:15px;
-  }
+
 
   .right_footer .icons span{
     padding: 5px 3px;
