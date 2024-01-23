@@ -13,14 +13,14 @@ body{
   display: flex;
 }
 
-/* .debug{
+.debug{
   border: 2px solid red;
-} */
+}
 
 .container{
-  width: 80%;
+  width: 90%;
   max-width: 1400px;
-  height: 1550px;
+  height: 1350px;
   margin: 100px auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -109,7 +109,6 @@ nav ul li{
 /* Main */
 .container .group{
   width: 33%;
-  margin: 2px;
   position: relative;
 }
 
