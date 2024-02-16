@@ -13,12 +13,12 @@ body{
   display: flex;
 }
 
-.debug{
+/* .debug{
   border: 2px solid red;
-}
+} */
 
 .container{
-  width: 90%;
+  width: 80%;
   max-width: 1400px;
   height: 1350px;
   margin: 100px auto;
